@@ -39,9 +39,7 @@ h1 {
     font-size: 23pt;
     color: #4aaaa5;
     padding-bottom: 15px;
-    margin-right: 10px;
-    margin-left: 45px;
-    margin-bottom: 15px;
+    margin: 15px 10px 15px 45px;
     border-bottom: #D3D3D3 solid 3px;
 
 }
@@ -58,7 +56,8 @@ h2{
     font-weight: 400;
     color: #4aaaa5;
     border-bottom: #D3D3D3 solid 2px;
-    margin: 15px;
+    margin: 5px 10px 15px 10px;
+    padding-bottom: 15px;
 }
 
 .foot {
@@ -82,4 +81,60 @@ h2{
 
 .profile-pic {
     width: 40%;
+    margin: 8px 10px 0px 0px;
+}
+
+h3 {
+    font-size: 23pt;
+    color: #4aaaa5;
+    padding-bottom: 15px;
+    margin: 15px 10px 15px 45px;
+    border-bottom: #D3D3D3 solid 3px;
+}
+
+.bio {
+    margin: 10px 10px 10px 30px;
+}
+
+.bio p {
+    color: #777777;
+    line-height: 160%;
+    margin-bottom: 20px;
+}
+
+#input-name {
+    font-size: 15px;
+    width: 96%;
+    height: 25px;
+    margin: 10px 0px;
+}
+
+#input-email {
+    font-size: 15px;
+    width: 96%;
+    height: 25px;
+    margin: 10px 0px;
+}
+
+#input-message {
+    width: 96%;
+    height: 200px;
+    margin: 10px 0px;
+}
+
+#submit-button {
+    font-size: 15pt;
+    width: 125px;
+    color: white;
+    border: 0 none;
+    background-color: #4aaaa5;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.contact-form {
+    color: #777777;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
